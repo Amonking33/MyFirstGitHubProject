@@ -17,7 +17,8 @@ namespace Calculator
             Console.WriteLine($"{op1} / {op2} = {op1/op2}");
             Console.WriteLine($"{op1} + {op2} = {op1 + op2}");
             Console.WriteLine($"{op1} - {op2} = {op1 - op2}");
-
+            Console.WriteLine($"{op1} * {op2} = {op1 * op2}");
+            
             Console.ReadKey();
         }
     }
